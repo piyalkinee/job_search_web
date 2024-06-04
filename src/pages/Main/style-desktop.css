@@ -1,1 +1,17 @@
-@media (min-width: 1024px) {}
+@media (min-width: 1024px) {
+    .main-page-welcome-block {
+        height: 100vh;
+    }
+
+    .main-page-welcome-block h1 {
+        font-size: 52px;
+    }
+
+    .main-page-welcome-block h2 {
+        font-size: 28px;
+    }
+
+    .main-page-welcome-block h3 {
+        font-size: 22px;
+    }
+}

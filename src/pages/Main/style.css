@@ -1,0 +1,135 @@
+.main-page {
+  width: 100vw;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.main-page-welcome-block {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center;
+}
+
+.main-page-welcome-block-b1 {
+  height: 100%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-page-welcome-block-b2 {
+  height: 96px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-page-button {
+  align-items: center;
+  appearance: none;
+  background-color: #3EB2FD;
+  background-image: linear-gradient(1deg, #4F58FD, #149BF3 99%);
+  background-size: calc(100% + 20px) calc(100% + 20px);
+  border-radius: 100px;
+  border-width: 0;
+  box-shadow: none;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: CircularStd, sans-serif;
+  font-size: 1rem;
+  height: auto;
+  justify-content: center;
+  line-height: 1.5;
+  padding: 6px 20px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transition: background-color .2s, background-position .2s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: top;
+  white-space: nowrap;
+}
+
+.main-page-button:active,
+.main-page-button:focus {
+  outline: none;
+}
+
+.main-page-button:hover {
+  background-position: -20px -20px;
+}
+
+.main-page-button:focus:not(:active) {
+  box-shadow: rgba(40, 170, 255, 0.25) 0 0 0 .125em;
+}
+
+.main-page-services {
+  width: 100vw;
+
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 32px;
+
+  background-color: rgb(239, 239, 239);
+}
+
+.main-page-services-block {
+  min-height: 260px;
+  width: 200px;
+
+  margin: 32px;
+
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: start;
+  align-items: center;
+
+  border-style: solid;
+  border-width: .5px;
+  border-radius: 32px;
+  border-color: rgb(102, 102, 102);
+}
+
+.main-page-services-block h3 {
+  height: 32px;
+}
+
+.main-page-about-us {
+  height: 260px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center;
+}
+
+.main-page-about-us-block-b1 {
+  height: 100%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-page-about-us-block-b2 {
+  height: 48px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
